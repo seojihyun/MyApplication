@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택을  시작하겠습니까?"
+     />
+    <Switch
+        android:id="@+id/Switch1"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작"
+        android:textOff="off"
+        android:textOn="on" />
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 안드로이드 버전은?"
+        android:visibility="invisible"
+        />
+    <RadioGroup
+        android:id="@+id/RadioGroup1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        >
+        <RadioButton
+            android:id="@+id/Option1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/jellybean"
+            />
+        <RadioButton
+            android:id="@+id/Option2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/kitkat"
+            />
+        <RadioButton
+            android:id="@+id/Option3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/lollipop"
+            />
+    </RadioGroup>
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/Button1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/exit"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/Button2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/back"
+        android:visibility="invisible"
+        />
+
+
+</LinearLayout>
