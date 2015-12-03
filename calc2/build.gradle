@@ -5,8 +5,8 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.example.com.myapplication"
-        minSdkVersion 15
+        applicationId "com.cookandroid.myapplication"
+        minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
